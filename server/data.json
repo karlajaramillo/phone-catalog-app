@@ -1,35 +1,106 @@
 [{
-    "id": "12345abc",
-    "name": "iPhone 7",
+    "id": "12345a",
+    "name": "iPhone 7 - Jet Black",
+    "screenSizeInches": "5.44",
+    "description": "Retina HD display. Fingerprint sensor built into the Home button. IP67 dust/water resistant",
+    "system": "iOS is the world’s most personal and secure mobile operating system, packed with powerful features that help you get the most out of every day.",
+    "capacity": "32GB, 128GB, 256GB",
+    "color": "Jet Black",
+    "priceEuros": "219",
+    "images": "https://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/SP743/iphone7-jetblack_2x.png"
+},
+{
+    "id": "12345b",
+    "name": "iPhone 7 - Rose Gold",
+    "screenSizeInches": "5.44",
+    "description": "Retina HD display. Fingerprint sensor built into the Home button. IP67 dust/water resistant",
+    "system": "iOS is the world’s most personal and secure mobile operating system, packed with powerful features that help you get the most out of every day.",
+    "capacity":  "32GB, 128GB, 256GB",
+    "color": "Rose Gold",
+    "priceEuros": "229",
+    "images": "https://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/SP743/iphone7-rosegold_2x.png"
+       
+},
+{
+    "id": "12345c",
+    "name": "iPhone 7 - Gold",
     "screenSizeInches": "5.44",
     "description": "Retina HD display. Fingerprint sensor built into the Home button. IP67 dust/water resistant",
     "system": "iOS is the world’s most personal and secure mobile operating system, packed with powerful features that help you get the most out of every day.",
     "capacity": ["32GB", "128GB", "256GB"],
-    "color": ["Rose Gold", "Gold", "Silver", "Black", "Jet Black"],
-    "priceEuros": "229",
-    "images": [
-        {"rose": "https://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/SP743/iphone7-rosegold_2x.png",
-        "gold": "https://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/SP743/iphone7-gold_2x.png",
-        "silver": "https://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/SP743/iphone7-silver_2x.png",
-        "black": "https://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/SP743/iphone7-black_2x.png", 
-        "jetblack": "https://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/SP743/iphone7-jetblack_2x.png",
-        "red": "https://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/SP743/iphone7-red_2x.png"
-        }]
+    "color": "Gold",
+    "priceEuros": "249",
+    "images": "https://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/SP743/iphone7-gold_2x.png"
+      
 },
 {
-    "id": "6789abcdef",
-    "name": "Samsung Galaxy S7",
+    "id": "12345d",
+    "name": "iPhone 7 - Silver",
+    "screenSizeInches": "5.44",
+    "description": "Retina HD display. Fingerprint sensor built into the Home button. IP67 dust/water resistant",
+    "system": "iOS is the world’s most personal and secure mobile operating system, packed with powerful features that help you get the most out of every day.",
+    "capacity":  "32GB, 128GB, 256GB",
+    "color": "Silver",
+    "priceEuros": "259",
+    "images": "https://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/SP743/iphone7-silver_2x.png"     
+},
+{
+    "id": "12345e",
+    "name": "iPhone 7 - Black",
+    "screenSizeInches": "5.44",
+    "description": "Retina HD display. Fingerprint sensor built into the Home button. IP67 dust/water resistant",
+    "system": "iOS is the world’s most personal and secure mobile operating system, packed with powerful features that help you get the most out of every day.",
+    "capacity": "32GB, 128GB, 256GB",
+    "color": "Black",
+    "priceEuros": "269",
+    "images": "https://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/SP743/iphone7-black_2x.png" 
+},
+
+{
+    "id": "abcd1",
+    "name": "Samsung Galaxy S7 - Black",
     "screenSizeInches": "5.1",
     "description": "Locked to the GSM network and only compatible with GSM carriers like AT&T and T-Mobile. Will not work with Sprint, Verizon, US Cellular or Cricket.",
     "system": "Android 6.0",
-    "capacity": ["32GB"],
-    "color": ["Black", "Rosa", "Gold", "Silver"],
+    "capacity": "32GB",
+    "color": "Black",
+    "priceEuros": "119",
+    "images": "https://www.backmarket.es/cdn-cgi/image/format=auto,quality=75,width=2048/https://d1eh9yux7w8iql.cloudfront.net/product_images/6516_67963b83-62d7-4985-b9f4-08b2d0593118.jpg"       
+},
+
+{
+    "id": "abcd2",
+    "name": "Samsung Galaxy S7 - Rosa",
+    "screenSizeInches": "5.1",
+    "description": "Locked to the GSM network and only compatible with GSM carriers like AT&T and T-Mobile. Will not work with Sprint, Verizon, US Cellular or Cricket.",
+    "system": "Android 6.0",
+    "capacity": "32GB",
+    "color": "Rosa", 
+    "priceEuros": "129",
+    "images": "https://www.backmarket.es/cdn-cgi/image/format=auto,quality=75,width=828/https://d1eh9yux7w8iql.cloudfront.net/product_images/14894_1622db60-17a3-4ce4-81ef-3c67c3baae8f.jpg"
+  
+},
+{
+    "id": "abcd3",
+    "name": "Samsung Galaxy S7 - Gold",
+    "screenSizeInches": "5.1",
+    "description": "Locked to the GSM network and only compatible with GSM carriers like AT&T and T-Mobile. Will not work with Sprint, Verizon, US Cellular or Cricket.",
+    "system": "Android 6.0",
+    "capacity": "32GB",
+    "color":  "Gold",
+    "priceEuros": "139",
+    "images": "https://www.backmarket.es/cdn-cgi/image/format=auto,quality=75,width=828/https://d1eh9yux7w8iql.cloudfront.net/product_images/1518440963.24.jpg"
+     
+},
+{
+    "id": "abcd4",
+    "name": "Samsung Galaxy S7 - Silver",
+    "screenSizeInches": "5.1",
+    "description": "Locked to the GSM network and only compatible with GSM carriers like AT&T and T-Mobile. Will not work with Sprint, Verizon, US Cellular or Cricket.",
+    "system": "Android 6.0",
+    "capacity": "32GB",
+    "color":  "Silver",
     "priceEuros": "149",
-    "images": [
-        {"black": "https://www.backmarket.es/cdn-cgi/image/format=auto,quality=75,width=2048/https://d1eh9yux7w8iql.cloudfront.net/product_images/6516_67963b83-62d7-4985-b9f4-08b2d0593118.jpg",
-        "rosa": "https://www.backmarket.es/cdn-cgi/image/format=auto,quality=75,width=828/https://d1eh9yux7w8iql.cloudfront.net/product_images/14894_1622db60-17a3-4ce4-81ef-3c67c3baae8f.jpg",
-        "gold": "https://www.backmarket.es/cdn-cgi/image/format=auto,quality=75,width=828/https://d1eh9yux7w8iql.cloudfront.net/product_images/1518440963.24.jpg",
-        "silver": "https://www.backmarket.es/cdn-cgi/image/format=auto,quality=75,width=828/https://d1eh9yux7w8iql.cloudfront.net/product_images/87225_d9f9a8f9-a3c1-471c-ae0d-1cd349bf515a.jpg"
-        }]
+    "images": "https://www.backmarket.es/cdn-cgi/image/format=auto,quality=75,width=828/https://d1eh9yux7w8iql.cloudfront.net/product_images/87225_d9f9a8f9-a3c1-471c-ae0d-1cd349bf515a.jpg"  
 }
 ]
