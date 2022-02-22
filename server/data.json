@@ -23,12 +23,13 @@
     "description": "Locked to the GSM network and only compatible with GSM carriers like AT&T and T-Mobile. Will not work with Sprint, Verizon, US Cellular or Cricket.",
     "system": "Android 6.0",
     "capacity": ["32GB"],
-    "color": ["Black", "Lilac", "Gold"],
+    "color": ["Black", "Rosa", "Gold", "Silver"],
     "priceEuros": "149",
     "images": [
-        {"black": "https://smaaart.es/11202-large_default/samsung-galaxy-a6-plus-doble-sim-negro-32gb-reacondicionado.jpg",
-        "lilac": "https://smaaart.es/11214-large_default/samsung-galaxy-a6-plus-doble-sim-p%C3%BArpura-32gb-reacondicionado.jpg",
-        "gold": "https://smaaart.es/11209-large_default/samsung-galaxy-a6-plus-doble-sim-oro-32gb-reacondicionado.jpg"
+        {"black": "https://www.backmarket.es/cdn-cgi/image/format=auto,quality=75,width=2048/https://d1eh9yux7w8iql.cloudfront.net/product_images/6516_67963b83-62d7-4985-b9f4-08b2d0593118.jpg",
+        "rosa": "https://www.backmarket.es/cdn-cgi/image/format=auto,quality=75,width=828/https://d1eh9yux7w8iql.cloudfront.net/product_images/14894_1622db60-17a3-4ce4-81ef-3c67c3baae8f.jpg",
+        "gold": "https://www.backmarket.es/cdn-cgi/image/format=auto,quality=75,width=828/https://d1eh9yux7w8iql.cloudfront.net/product_images/1518440963.24.jpg",
+        "silver": "https://www.backmarket.es/cdn-cgi/image/format=auto,quality=75,width=828/https://d1eh9yux7w8iql.cloudfront.net/product_images/87225_d9f9a8f9-a3c1-471c-ae0d-1cd349bf515a.jpg"
         }]
 }
 ]
