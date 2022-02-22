@@ -2,13 +2,8 @@ import React, { Fragment } from "react";
 import classes from "./PhoneDetails.module.css";
 import { useParams } from "react-router-dom";
 import { getPhoneById } from "../../api";
-import { PhoneListContainer } from "../../components/PhoneListContainer";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSpinner } from "@fortawesome/free-solid-svg-icons";
-
-const spin = <FontAwesomeIcon icon={faSpinner} className={`${classes.icon} fa-spin`}/>;
-
-
+import { PhoneDetailComponent } from "../../components/PhoneDetailComponent";
+import { Spinner } from "../../components/UI/Spinner";
 
 
 function PhoneDetails() {
@@ -40,8 +35,8 @@ function PhoneDetails() {
 
   return (
     <Fragment>
-    {loading && spin}    
-      {/* {data && <PhoneDetailComponent allData={data} />} */}
+    {loading && <Spinner/>}    
+       {data && <PhoneDetailComponent allData={data} />} 
     </Fragment>
   );
 }
