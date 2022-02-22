@@ -1,0 +1,37 @@
+.navbar {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: #1e5fa0;
+  }
+  .navbar 
+  .logo {
+    color: #fff;
+    font-family: "Sora";
+    font-weight: 600;
+  }
+  .icon path{
+    color: #fff;
+  }
+
+  .icon {
+    font-size: 2rem;
+      --fa-animation-duration: 2s;
+      --fa-animation-iteration-count: 5;
+  }
+  .navbar .logo {
+    margin-left: 16px;
+    text-decoration: none;
+    padding: 6px;
+    font-size: 2rem;
+  }
+  .navbar .logo:hover {
+    color: #79a7d6;
+  }
+
+  .navbar ul {
+    display: flex;
+  justify-content: space-around;
+  list-style: none;
+  }

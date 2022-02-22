@@ -1,0 +1,17 @@
+.footer {
+    background-color: #121212;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer span {
+    color: #fff;
+    font-size: 1rem;
+}
+
+.icon path {
+    color: #fff; 
+    
+}
