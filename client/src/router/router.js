@@ -2,7 +2,6 @@ import React from "react";
 import { Switch, Route } from "react-router-dom";
 import { ROUTES } from "./constants";
 import { Layout } from "../components/Layout";
-import { PhoneListContainer } from "../components/PhoneListContainer";
 import { Home } from "../Pages/Home";
 import { PhoneDetails } from "../Pages/PhoneDetails";
 
@@ -11,13 +10,13 @@ function AppRouter() {
     <Switch>
       <Route exact path={ROUTES.root}>
         <Layout>
-          <Home/>
+          <Home />
         </Layout>
       </Route>
 
       <Route exact path={ROUTES.phone}>
-      <Layout>
-        <PhoneDetails/>
+        <Layout>
+          <PhoneDetails />
         </Layout>
       </Route>
     </Switch>

@@ -6,7 +6,6 @@ import { Button } from "../UI/Button";
 
 function PhoneListContainer(props) {
   const { allData } = props;
-  //console.log(allData);
 
   const cardPhone = allData.map((phone) => {
     return (

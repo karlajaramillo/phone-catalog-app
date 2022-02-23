@@ -1,5 +1,4 @@
-// impor types
-// import { GET_PHONES, GET_PHONE, PHONES_ERROR } from "../types";
+// import types
 import { GET_PHONES, PHONES_ERROR } from "../types";
 
 // default state for phones

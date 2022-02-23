@@ -8,7 +8,3 @@ const api = axios.create({
 export function getPhones() {
     return api.get("/phones");
 }
-
-export function getPhoneById(id) {
-    return api.get(`/phones/${id}`);
-}
