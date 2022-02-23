@@ -7,7 +7,7 @@ const initialState = {
   loading: true,
 };
 
-export default function (state = initialState, action)  {
+export default function phoneReducer (state = initialState, action)  {
   switch (action.type) {
     case GET_PHONES:
         // return an object with all previous state, 

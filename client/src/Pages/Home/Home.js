@@ -6,6 +6,11 @@ import { PhoneListContainer } from "../../components/PhoneListContainer";
 // using redux
 import { useDispatch, useSelector } from "react-redux";
 import { getDataPhones } from "../../store/actions/phoneAction";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAnglesDown } from "@fortawesome/free-solid-svg-icons";
+
+const arrowIcon = <FontAwesomeIcon icon={faAnglesDown} className={`${classes.arrowIcon} fa-fade`}/>;
+
 
 function Home() {
   //// Using useState
@@ -41,7 +46,10 @@ function Home() {
 
   return (
     <Fragment>
+      <div className={classes.backgroundHome}>
       <h1 className={classes.title}>Discover the latest phones!</h1>
+{arrowIcon}
+      </div>
       {/* {loading && <Spinner/>} */}
       {loading ? (
         <Spinner />
