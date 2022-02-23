@@ -19,8 +19,7 @@ As a user you can:
 |	/phones/:id	|	Render a specific phone details|
 
 
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/8181053/155386376-316a1550-3843-489c-b377-5086947db1d1.gif)
-
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/8181053/155390113-7cc3192e-111b-40e1-93fa-d4d0edaf4eeb.gif)
 
 # Frontend - Client folder
 ```
