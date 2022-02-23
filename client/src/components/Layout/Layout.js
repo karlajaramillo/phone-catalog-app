@@ -7,7 +7,7 @@ function Layout({ isHome, children }) {
     <>
       <Navbar />
       {children}
-      {!isHome && <Footer />}
+       <Footer />
     </>
   );
 }

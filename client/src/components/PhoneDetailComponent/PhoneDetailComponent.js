@@ -14,15 +14,16 @@ function PhoneDetailComponent(props) {
   return (
     <Card key={phone.id} className={classes["phone-card"]}>
       <h1>{phone.name}</h1>
-      <p>Price: {phone.priceEuros} € </p>
-      <p>Description: {phone.description}</p>
-      <p>Description: {phone.color} </p>
-      <p>Capacity: {phone.capacitys} </p>
-      <p>Screen size: {phone.screenSizeInches} inches </p>
-      
       <div>
         <img src={phone.images} alt="phone" />
       </div>
+      <p><span>Price:</span> {phone.priceEuros} € </p>
+      <p><span>Description</span>: {phone.description}</p>
+      <p><span>Color</span> {phone.color} </p>
+      <p><span>Capacity</span> {phone.capacity} </p>
+      <p><span>Screen size</span> {phone.screenSizeInches} inches </p>
+      
+
       <Button>Buy now!</Button>
     </Card>
   );

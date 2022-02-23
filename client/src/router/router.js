@@ -14,11 +14,7 @@ function AppRouter() {
           <Home/>
         </Layout>
       </Route>
-      <Route exact path={ROUTES.phones}>
-      <Layout>
-        <PhoneListContainer/>
-        </Layout>
-      </Route>
+
       <Route exact path={ROUTES.phone}>
       <Layout>
         <PhoneDetails/>
