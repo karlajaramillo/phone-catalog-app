@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import classes from "./Home.module.css";
-import { getPhones } from "../../api";
+//import { getPhones } from "../../api";
 import { Spinner } from "../../components/UI/Spinner";
 import { PhoneListContainer } from "../../components/PhoneListContainer";
 // using redux
@@ -9,8 +9,13 @@ import { getDataPhones } from "../../store/actions/phoneAction";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAnglesDown } from "@fortawesome/free-solid-svg-icons";
 
-const arrowIcon = <FontAwesomeIcon icon={faAnglesDown} className={`${classes.arrowIcon} fa-fade`}/>;
 
+const arrowIcon = <FontAwesomeIcon icon={faAnglesDown} className={`${classes.arrowIcon} fa-fade`}/>;
+// const resPhone = await getPhoneById();
+// dispatch({
+//     type: GET_PHONE,
+//     payload:resPhone.data
+// })
 
 function Home() {
   //// Using useState
@@ -36,9 +41,7 @@ function Home() {
 
   // Redux
   const dispatch = useDispatch();
-  console.log(dispatch)
   const phonesList = useSelector((state) => state.phonesList);
-  console.log(phonesList)
   const { loading, error, phones } = phonesList;
   React.useEffect(() => {
     dispatch(getDataPhones());

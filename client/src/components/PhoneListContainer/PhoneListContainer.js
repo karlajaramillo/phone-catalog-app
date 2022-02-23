@@ -6,11 +6,9 @@ import { Button } from "../UI/Button";
 
 function PhoneListContainer(props) {
   const { allData } = props;
-  console.log(allData);
+  //console.log(allData);
 
-  const [phones, setPhones] = React.useState(allData);
-
-  const cardPhone = phones.map((phone) => {
+  const cardPhone = allData.map((phone) => {
     return (
       <Card key={phone.id} className={classes["phone-card"]}>
       <Link to={`/phones/${phone.id}`}>
