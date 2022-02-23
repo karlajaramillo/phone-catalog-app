@@ -5,7 +5,7 @@ import { Button } from "../UI/Button";
 
 function PhoneDetailComponent(props) {
   const { allData } = props;
-  console.log(allData)
+  //console.log(allData)
 
   return (
     <Card key={allData.id} className={classes["phone-card"]}>

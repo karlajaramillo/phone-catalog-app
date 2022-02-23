@@ -41,5 +41,11 @@
 @media (min-width: 650px) {
     .backgroundHome {
         height: 70vh;
+        justify-content: space-around;
     }
+    .title {
+        margin-top: 7rem;
+        margin-bottom: 0;
+    }
+    
   }

@@ -1,11 +1,12 @@
 import React, { Fragment } from "react";
 import { useParams } from "react-router-dom";
 import { PhoneDetailComponent } from "../../components/PhoneDetailComponent";
-import { Spinner } from "../../components/UI/Spinner";
-
+// import { Spinner } from "../../components/UI/Spinner";
 // using redux
-import { useDispatch, useSelector } from "react-redux";
-import {getDataPhone} from "../../store/actions/phoneAction";
+ import {  useSelector } from "react-redux";
+ //import { useDispatch, useSelector } from "react-redux";
+
+// import {getDataPhone} from "../../store/actions/phoneAction";
 
 function PhoneDetails() {
   const {id} = useParams();
@@ -18,7 +19,8 @@ function PhoneDetails() {
     // }, [id]);
   // Access the store via the `useContext` hook
 
-  console.log(id);
+  //console.log(id);
+
   // const [data, setData] = React.useState(null);
   // const [error, setError] = React.useState(false);
   // const [loading, setLoading] = React.useState(true);
@@ -41,28 +43,27 @@ function PhoneDetails() {
   //   getPhoneDetails();
   // }, [id]);
  // Redux
- const dispatch = useDispatch();
- const phonesList = useSelector((state) => state.phonesList);
- const { loading, error, phone } = phonesList;
- React.useEffect(() => {
-   dispatch(getDataPhone(id));
- }, [id, dispatch]);
+//  const dispatch = useDispatch();
+ const data = useSelector((state) => state.phonesList.phones)
+ //console.log(data)
+ //console.log('id', id)
+
+ const phone = data.find(item => item.id === id);
+ //console.log(phone)
+
+ 
+//  const phonesList = useSelector((state) => state.phones);
+//  console.log(phonesList)
+//  const { loading, error, phone } = phonesList;
+//  React.useEffect(() => {
+//    dispatch(getDataPhone(id));
+//  }, [id, dispatch]);
   
 
   return (
 
      <Fragment>
-           {loading ? (
-        <Spinner />
-      ) : error ? (
-        error.message
-      ) : (
         <PhoneDetailComponent allData={phone}/>
-      )}
-     {/* {loading && <Spinner/>}  
-     {phone && <PhoneDetailComponent allData={phone} />} 
-   */}
-       {/* {data && <PhoneDetailComponent allData={data} />}  */}
      </Fragment>
   );
 }
